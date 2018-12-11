@@ -1,0 +1,15 @@
+/node_modules
+/public/hot
+/public/js/app.js
+/public/css/app.css
+/storage/app
+/storage/app
+/vendor
+/.idea
+/.vscode
+/.vagrant
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+
