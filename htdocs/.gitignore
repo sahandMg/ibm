@@ -3,7 +3,7 @@
 /public/js/app.js
 /public/css/app.css
 /storage/app
-
+/vendor/*
 /.idea
 /.vscode
 /.vagrant

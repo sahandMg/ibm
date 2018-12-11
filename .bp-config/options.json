@@ -1,6 +1,6 @@
 {
-  <br /> "PHP_VERSION": "{PHP_72_LATEST}",<br />
-  "COMPOSER_VENDOR_DIR": "../htdocs/vendor",<br />
-  "WEBDIR": "../htdocs/public",<br />
-  "PHP_EXTENSIONS": [ "bz2", "zlib", "openssl", "fpm", "tokenizer", "curl", "mcrypt", "mbstring", "pdo"]<br />
+  "PHP_VERSION": "{PHP_72_LATEST}",
+  "COMPOSER_VENDOR_DIR": "htdocs/vendor",
+  "WEBDIR": "htdocs/public",
+  "PHP_EXTENSIONS": [ "bz2", "zlib", "openssl", "fpm", "tokenizer", "curl", "mcrypt", "mbstring", "pdo"]
 }

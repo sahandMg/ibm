@@ -37,8 +37,8 @@
     },
     "autoload": {
         "classmap": [
-            "database/seeds",
-            "database/factories"
+            "htdocs/database/seeds",
+            "htdocs/database/factories"
         ],
         "psr-4": {
             "App\\": "/htdocs/app/"
@@ -60,11 +60,11 @@
             "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
         ],
         "post-create-project-cmd": [
-            "@php /htdocs/artisan key:generate"
+            "@php htdocs/artisan key:generate"
         ],
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
-            "@php /htdocs/artisan package:discover"
+            "@php htdocs/artisan package:discover"
         ]
     },
     "config": {
