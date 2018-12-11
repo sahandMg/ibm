@@ -1,0 +1,42 @@
+{
+    "name": "silber/page-cache",
+    "description": "Caches responses as static files on disk for lightning fast page loads..",
+    "keywords": ["laravel", "cache"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joseph Silber",
+            "email": "contact@josephsilber.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Silber\\PageCache\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": ["tests"]
+    },
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/contracts": "5.0 - 5.7",
+        "illuminate/filesystem": "5.0 - 5.7",
+        "symfony/http-foundation": "2.6 - 4"
+    },
+    "require-dev": {
+        "illuminate/container": "5.0 - 5.7",
+        "larapack/dd": "^1.1",
+        "mockery/mockery": "^0.9.5",
+        "phpunit/phpunit": "^4.8"
+    },
+    "suggest": {
+        "illuminate/console": "Allows clearing the cache via artisan"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Silber\\PageCache\\LaravelServiceProvider"
+            ]
+        }
+    }
+}
